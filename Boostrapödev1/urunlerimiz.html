@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Müzik Dükkanı</title>
+<style>
+     body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    } 
+ 
+    .navbar {
+        background-color: #333;
+        color: rgb(207, 59, 59);
+        padding: 10px 0;
+    
+    } 
+
+    .navbar h1 {
+        margin: 0;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .grid-item {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+</head>
+<body>
+
+<header class="navbar">
+    <h1>Müzik Dükkanım</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="urunlerimiz.html">Ürünlerimiz</a></li>
+            <li><a href="Hakkımızda.html">Hakkımızda</a></li>
+        </ul>
+    </nav>
+</header>
+
+<h2><b>ÜRÜNLERİMİZ</b></h2>
+
+<div class="grid-container">
+    <div class="grid-item">
+        <img src="images/davul.jpg.jpg" alt="davul">
+        <p><strong>Jinbao JBMBZ-2014 Bando Davulu = 3550 TL</strong></p>
+    </div>
+    <div class="grid-item">
+        <img src="images/gitar.jpg.jpg" alt="gitar">
+        <p><strong>Squier SA-150 Dreadnought Naturel Akustik Gitar = 8530 TL</strong></p>
+    </div>
+    <div class="grid-item">
+        <img src="images/keman.jpg.jpg" alt="keman">
+        <p><strong>Eastar EVA-3 3/4 Keman Seti = 5880 TL</strong></p>
+    </div>
+    <div class="grid-item">
+        <img src="images/piyano.jpg.jpg" alt="piyano">
+        <p><strong>Kurzweil M130W-WH Beyaz Dijital Piyano = 65 800 TL</strong></p>
+    </div>
+</div>
+
+</body>
+</html>

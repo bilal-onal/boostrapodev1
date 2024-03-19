@@ -1,0 +1,58 @@
+
+    
+    .navbar {
+        background-color: #333; /* Navbar arka plan rengi */
+        color: #fff; /* Navbar yazı rengi */
+        padding: 10px 0; /* Navbar içeriği ile kenarlar arasındaki boşluk */
+    }
+    
+    .navbar h1 {
+        margin: 0;
+        padding: 0 20px; /* Başlık içeriği ile kenarlar arasındaki boşluk */
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #fff; /* Menü link rengi */
+        padding: 10px 20px; /* Menü link içeriği ile kenarlar arasındaki boşluk */
+    }
+    
+    nav ul li a:hover {
+        background-color: #555; /* Üzerine gelindiğinde linkin arka plan rengi */
+    }
+
+    h3,h4{
+        color: rgb(159, 108, 6);
+    } 
+   
+    h1{
+        color: rgb(207, 59, 59);
+    } 
+    h2
+    {
+        color: purple;
+    }
+
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .content {
+        max-width: 800px;
+        margin: 50px auto; 
+        padding: 0 20px; 
+        text-align: center; 
+    }
+
+  
